@@ -5,6 +5,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import { config as baseConfig } from "./base.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -13,6 +14,7 @@ export default tseslint.config(
   {
     ignores: ["eslint.config.mjs"],
   },
+  ...baseConfig,
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
   eslintPluginPrettierRecommended,

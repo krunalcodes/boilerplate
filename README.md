@@ -5,15 +5,15 @@ This checklist tracks the setup and configuration of essential features and tool
 ## Code Quality & Developer Experience
 
 - [x] Setup ESLint, Prettier, TypeScript config, and EditorConfig
-- [ ] Setup Husky and lint-staged for pre-commit hooks
+- [x] Setup Husky and lint-staged for pre-commit hooks
 
 ## Backend Infrastructure
 
 - [x] Setup NestJS for the API
 - [x] Setup PostgreSQL and Drizzle ORM for the database
-- [ ] Setup Better Auth with NestJS and Next.js
-- [ ] Setup login via email and Google in NestJS
-- [ ] Setup queuing using BullMQ in NestJS
+- [x] Setup Better Auth with NestJS and Next.js
+- [x] Setup login via email and Google in NestJS
+- [x] Setup queuing using BullMQ in NestJS
 - [ ] Setup stripe checkout
 
 ## Frontend
@@ -32,7 +32,7 @@ This checklist tracks the setup and configuration of essential features and tool
 
 ## DevOps & Deployment
 
-- [ ] Setup Docker and Docker Compose for development/deployment
+- [x] Setup Docker and Docker Compose for development/deployment
 - [ ] Setup GitHub Actions for linting and deployment
 
 ## Documentation

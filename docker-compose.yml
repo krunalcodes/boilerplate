@@ -1,0 +1,32 @@
+services:
+  postgres:
+    container_name: saas-postgres
+    image: postgres:18
+    shm_size: 128m
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: saas
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    networks:
+      - saas-network
+  redis:
+    container_name: saas-redis
+    image: redis:8
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - saas-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  saas-network:
+    driver: bridge

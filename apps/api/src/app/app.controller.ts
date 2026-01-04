@@ -1,9 +1,15 @@
-import { Controller, Get } from "@nestjs/common";
+import { Controller, Get, VERSION_NEUTRAL } from "@nestjs/common";
+import { ApiOperation, ApiTags } from "@nestjs/swagger";
 
-@Controller()
+@ApiTags("app")
+@Controller({ version: VERSION_NEUTRAL })
 export class AppController {
   @Get()
-  getHello(): { message: string } {
-    return { message: "Hello World!" };
+  @ApiOperation({ summary: "Get application status" })
+  getAppStatus(): { status: string; message: string } {
+    return {
+      status: "ok",
+      message: "Application is running.",
+    };
   }
 }
