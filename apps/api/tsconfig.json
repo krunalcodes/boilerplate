@@ -1,0 +1,7 @@
+{
+  "extends": "@saas/typescript-config/nestjs.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./"
+  }
+}

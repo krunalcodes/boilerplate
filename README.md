@@ -4,12 +4,12 @@ This checklist tracks the setup and configuration of essential features and tool
 
 ## Code Quality & Developer Experience
 
-- [ ] Setup ESLint, Prettier, TypeScript config, and EditorConfig
+- [x] Setup ESLint, Prettier, TypeScript config, and EditorConfig
 - [ ] Setup Husky and lint-staged for pre-commit hooks
 
 ## Backend Infrastructure
 
-- [ ] Setup NestJS for the API
+- [x] Setup NestJS for the API
 - [ ] Setup PostgreSQL and Drizzle ORM for the database
 - [ ] Setup Better Auth with NestJS and Next.js
 - [ ] Setup login via email and Google in NestJS
