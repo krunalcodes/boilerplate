@@ -10,7 +10,7 @@ This checklist tracks the setup and configuration of essential features and tool
 ## Backend Infrastructure
 
 - [x] Setup NestJS for the API
-- [ ] Setup PostgreSQL and Drizzle ORM for the database
+- [x] Setup PostgreSQL and Drizzle ORM for the database
 - [ ] Setup Better Auth with NestJS and Next.js
 - [ ] Setup login via email and Google in NestJS
 - [ ] Setup queuing using BullMQ in NestJS
