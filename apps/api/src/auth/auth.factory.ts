@@ -18,6 +18,9 @@ export const asyncAuthFactory = {
         emailAndPassword: {
           enabled: true,
           requireEmailVerification: true,
+          sendResetPassword: async ({ url }) => {
+            console.log(url);
+          },
         },
         socialProviders: {
           google: {

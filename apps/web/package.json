@@ -10,15 +10,21 @@
     "lint": "eslint --max-warnings 0 --fix"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "@saas/ui": "*",
+    "@t3-oss/env-nextjs": "^0.13.10",
     "@tanstack/react-query": "^5.90.16",
     "@tanstack/react-query-devtools": "^5.91.2",
     "@tanstack/react-query-next-experimental": "^5.91.0",
+    "better-auth": "1.4.4",
     "next": "16.1.0",
     "next-themes": "^0.4.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "sonner": "^2.0.7"
+    "react-hook-form": "^7.70.0",
+    "react-icons": "^5.5.0",
+    "sonner": "^2.0.7",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@saas/eslint-config": "*",

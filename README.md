@@ -19,7 +19,7 @@ This checklist tracks the setup and configuration of essential features and tool
 ## Frontend
 
 - [x] Setup shadcn/ui with base UI components
-- [ ] Create auth pages
+- [x] Create auth pages
 - [ ] Create dashboard layout
 - [ ] Create profile pages
 - [ ] Create pricing and billing pages
